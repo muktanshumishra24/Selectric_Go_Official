@@ -1,0 +1,761 @@
+/* Google Fonts */
+
+@import url('https://fonts.googleapis.com/css?family=Alex+Brush|Overpass+Mono:600,700');
+@import url('https://fonts.googleapis.com/css?family=PT+Sans');
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap');
+
+/* *{
+    background-color: #0c0000;
+} */
+
+
+body {
+    overflow-x: hidden;
+    background-color: #0c0000;
+}
+
+
+/* GLOBAL */
+
+h2 {
+    margin-top: 0;
+}
+
+button {
+    border: 0;
+    background: 0;
+    cursor: pointer;
+}
+
+a {
+    text-decoration: none;
+    padding-bottom: 5px;
+}
+
+ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+
+/* HEADER */
+
+services-header {
+    min-height: 100vh;
+    background: linear-gradient(to bottom, rgba(0, 0, 0, .8), transparent), url(../../assets/img/feat.-energy-efficient-cars.jpg) no-repeat center center;
+    background-size: cover;
+    background-attachment: fixed;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+
+}
+
+services-header nav {
+    /* NAV */
+    padding: 15px 35px;
+    display: flex;
+    position: relative;
+}
+
+services-header nav h2 {
+    margin-bottom: 0;
+    flex: 1;
+    letter-spacing: 3px;
+    font-family: 'Overpass Mono', monospace !important;
+}
+
+/* header nav #logo {
+    height: 100px;
+    width: 250px;
+} */
+
+services-header nav .nav-button {
+    color: #c0c0c0;
+    font-size: 23px;
+}
+
+
+services-header nav div {
+    background: rgba(0, 0, 0, .9);
+    position: fixed;
+    right: 0;
+    left: 0;
+    top: 0;
+    bottom: 0;
+    z-index: 1;
+    text-align: center;
+    transform: scale(0);
+    opacity: 0;
+    transition: opacity 0.2s;
+}
+
+
+services-header .center {
+    line-height: 0;
+    margin: auto;
+    text-align: center;
+    color: #fff;
+}
+
+services-header .center h1 {
+    /* font-family: 'Alex Brush', cursive !important; */
+    /* font-family: Arial, Helvetica, sans-serif;
+    color: #3EDBF0;
+    font-size: 150px; */
+    margin-bottom: 70px;
+    /* margin: 0; */
+    font-size: 150px;
+    /* font-weight: bolder; */
+    color: #3EDBF0;
+    font-family: 'Epilogue', sans-serif;
+}
+
+services-header .center h2 {
+    text-transform: uppercase;
+    letter-spacing: 5px;
+    font-size: 35px;
+    margin-bottom: 130px;
+    color: #fff;
+}
+
+services-header .center p {
+    text-transform: uppercase;
+    margin-top: 5px;
+    font-size: 14px;
+    font-weight: bold;
+    letter-spacing: 3px;
+}
+
+/* nav div.show {
+    transform: scale(1);
+    opacity: 1;
+} */
+nav {
+    height: 80px;
+    background: #000;
+    opacity: 80%;
+    width: 100%;
+    margin: 0;
+    position: fixed;
+    font-family: 'Epilogue', sans-serif;
+    font-size: 20px;
+    display: flex;
+    justify-content: space-between;
+    padding: 0 16px 0 0;
+    box-sizing: border-box;
+    z-index: 100;
+}
+
+nav a {
+    /* font-weight: 600; */
+    padding: 0 30px;
+    color: #fff;
+    transition: 0.4s;
+}
+
+nav a:hover {
+    /* font-weight: 600; */
+    text-decoration: none;
+    color: #3EDBF0;
+}
+
+nav ul {
+    display: flex;
+    list-style: none;
+    justify-content: space-around;
+    align-items: center;
+    height: 100%;
+    margin: 0;
+}
+
+#logo-img {
+    height: 100%;
+}
+
+#logo-img img {
+    height: 50px;
+    border-radius: 15px;
+}
+
+
+
+/* SECTIONS */
+
+
+/* CLASSES */
+
+.custom-font {
+    font-family: 'Bebas Neue', cursive;
+    color: #3EDBF0;
+    font-size: 85px;
+    line-height: 0;
+    font-weight: 400;
+}
+
+.add-padding {
+    padding: 25px;
+    background-color: #000;
+}
+
+.center-text {
+    text-align: center;
+    margin-bottom: 20px;
+    margin-top: 30px;
+    color: #4d4d4d;
+}
+
+.center-text h2 {
+    margin-top: 25px;
+    line-height: 0;
+}
+
+.center-text p {
+    margin-top: 0;
+    font-family: 'PT Sans', sans-serif;
+    line-height: 1.5;
+    font-size: 35px;
+    color: #fff;
+}
+
+.center-text a {
+    font-family: 'PT Sans', sans-serif;
+    color: #be8040;
+    text-transform: uppercase;
+    font-size: 12px;
+    font-weight: 600;
+    letter-spacing: 1px;
+    border-bottom: solid 2px #be8040;
+}
+
+.add-flex {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.add-flex .stuffed-cherries {
+    background: url(../../assets/img/sophie-jonas-9eLBz_H5aso-unsplash.jpg) no-repeat center center;
+    background-size: cover;
+    height: 315px;
+    width: 320px;
+    border-radius: 20px;
+}
+
+.center-h1 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.custom-h1 {
+    text-align:center;
+    margin-bottom: 90px;
+    color: #fff;
+    letter-spacing: 5px;
+    /* margin-bottom: 0; */
+    font-size: 80px;
+}
+
+
+.banner-text {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.banner-text h2 {
+    font-size: 60px;
+    font-weight: 900;
+    text-align: center;
+    color: #fff;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+}
+
+.content-area h2 {
+    text-transform: uppercase;
+    font-weight: 900;
+    margin-bottom: 30px;
+    font-size: 45px;
+}
+
+.section-padding {
+    padding: 80px 0;
+}
+
+.statistic-area .sts-overlay {
+    background: rgba(252, 251, 251, 0.8);
+}
+
+.single-count i {
+    color: #0e0000;
+    font-size: 35px;
+    padding-left: 15px;
+}
+
+.single-count h2 {
+    font-size: 50px;
+    color: darkorange;
+    font-weight: 700;
+}
+
+.single-count p {
+    font-size: 16px;
+    color: #0c0000;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    font-weight: lighter;
+}
+
+.fa-cutlery {
+    color: #be8040;
+}
+
+
+/* TASTEFUL RECIPES SECTION */
+
+.work-background {
+    background: url(../../assets/img/electric_vehicle_banner.jpg) no-repeat center center;
+    background-size: cover;
+    background-attachment: fixed;
+    height: 500px;
+}
+.about-work-background {
+    background: url(../../assets/img/team.jpg) no-repeat center center;
+    background-size: cover;
+    background-attachment: fixed;
+    height: 500px;
+}
+
+/* MENU SECTION */
+
+.menu {
+    padding: 30px;
+}
+
+/* .menu-images {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-gap: 10px;
+} */
+
+.menu-images img {
+    width: 80%;
+    border-radius: 35px;
+}
+
+
+/* CHEF SECTION */
+
+.carousel-inner img {
+    width: 100%;
+    height: 100%;
+    padding: 10px;
+}
+
+.carousel {
+    margin: 50px 300px 300px 300px;
+}
+
+
+/* THE PERFECT BLEND SECTION */
+
+.cake-background {
+    background: url(../../assets/img/_108609858_gettyimages-909742720.jpg) no-repeat center center;
+    background-size: cover;
+    background-attachment: fixed;
+    height: 500px;
+}
+
+.cake-background span {
+    color: cornflowerblue;
+}
+
+
+/* CULINARY DELIGHT SECTION */
+
+.reservation-section {
+    margin-bottom: 40px;
+}
+
+.reservation-section div:first-child {
+    flex: 1;
+}
+
+.reservation-section div:last-child {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 1fr;
+    flex: 1;
+}
+
+.reservation-section div:last-child img {
+    margin: auto;
+    width: 85%;
+}
+
+
+/* FOOTER */
+
+footer {
+    margin: 0;
+    position: relative;
+    background: #141414;
+    color: lightgray;
+}
+
+footer button {
+    width: 50px;
+    height: 50px;
+    position: absolute;
+    top: -20px;
+    left: 50%;
+    transform: translate(-50%, -10%);
+    background: white;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    font-size: 12px;
+    font-weight: bold;
+    letter-spacing: 1.2px;
+    line-height: 1.2;
+    border-radius: 50%;
+    margin-top: 0;
+}
+
+footer .selectric-info {
+    /* padding: 35px 40px !important; */
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+footer .copyright {
+    background: #232323;
+    color: #969696;
+    font-size: 14px;
+    letter-spacing: 1px;
+    padding: 10px 30px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+}
+
+footer .copyright span {
+    border-bottom: solid 1px;
+}
+
+footer #left-footer {
+    flex: 1;
+    /* border-right: 1px solid #000; */
+    padding-left: 275px;
+}
+
+footer #left-footer ul {
+    padding: 0;
+    list-style: none;
+    line-height: 1.5;
+    
+}
+
+footer #right-footer {
+    flex: 2;
+    padding: 8px;
+    text-align: center;
+}
+
+footer #social-media-footer a .fa-facebook,
+footer #social-media-footer a .fa-twitter,
+footer #social-media-footer a .fa-instagram,
+footer #social-media-footer a .fa-linkedin {
+    color: white;
+    transition: 0.4s;
+}
+
+footer #social-media-footer ul {
+    display: flex;
+    list-style: none;
+    justify-content: center;
+    padding: 0;
+}
+
+footer #social-media-footer ul li {
+    font-size: 48px;
+    padding: 16px;
+    transition: 0.4s;
+}
+
+footer #social-media-footer ul li:hover a .fa-twitter {
+    color: skyblue;
+}
+
+footer #social-media-footer ul li:hover a .fa-facebook{
+    color: #3b5998;
+}
+footer #social-media-footer ul li:hover a .fa-linkedin {
+    color: #3b5998;
+}
+
+
+footer #social-media-footer ul li:hover a .fa-instagram {
+    color: rgb(245, 33, 132);
+}
+
+
+/* MEDIA QUERIES */
+
+@media screen and (max-width: 425px) {
+    header,services-header,contact-header,
+    .bread-background,
+    .cake-background {
+        background-attachment: scroll;
+    }
+}
+
+@media (min-width: 768px) {
+    footer .selectric-info {
+        flex-direction: row;
+        justify-content: space-around;
+        align-items: flex-start;
+    }
+}
+
+@media (min-width: 769px) {
+    /* NAV */
+    /* FOOTER */
+    nav {
+        position: initial !important;
+        align-items: baseline;
+        padding: 20px 70px !important;
+    }
+    nav .nav-button {
+        display: none;
+    }
+    nav div {
+        position: initial !important;
+        background: none !important;
+        opacity: initial !important;
+        transform: initial !important;
+    }
+    nav div ul {
+        position: initial !important;
+        flex-direction: row !important;
+    }
+    nav div ul .exit-menu {
+        display: none;
+    }
+    nav div ul li a {
+        font-size: 12.8px;
+        margin: 0 10px;
+        letter-spacing: 1px;
+        padding: 5px 0 !important;
+    }
+    nav div ul .active {
+        border-bottom: solid 1px lightgray;
+    }
+    .add-padding {
+        padding: 50px 0;
+    }
+    .add-flex {
+        flex-direction: row;
+        align-items: center;
+    }
+    .add-flex div:first-child {
+        flex: 1;
+        padding: 0 50px;
+    }
+    .add-flex div:last-child {
+        min-width: 400px;
+        margin: 50px;
+    }
+    .menu-images {
+        flex: 1;
+    }
+    .menu div:last-child {
+        flex: 1;
+    }
+    footer .selectric-info {
+        padding: 20px 80px;
+        flex-direction: row;
+        justify-content: space-around;
+    }
+    footer .selectric-info .locations {
+        display: flex;
+        justify-content: space-between;
+        flex-wrap: wrap;
+    }
+    footer .selectric-info .locations h4 {
+        flex: 1 0 100%;
+    }
+    footer .selectric-info .hours {
+        display: flex;
+        justify-content: space-between;
+        flex-wrap: wrap;
+    }
+    footer .selectric-info .hours h4 {
+        flex: 1 0 100%;
+    }
+    footer .copyright {
+        flex-direction: row;
+        justify-content: space-around;
+    }
+}
+
+
+::-webkit-scrollbar {
+    width: 10px;
+}
+ 
+::-webkit-scrollbar-track {
+    background: #000;
+}
+
+::-webkit-scrollbar-thumb {
+    -webkit-border-radius: 10px;
+    border-radius: 10px;
+    background: #fff; 
+}
+
+.preloader {
+    position: fixed;
+    left: 0;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    background-color: #111111;
+    z-index: 1099;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    transition: all 0.6s ease;
+}
+
+.preloader.loaded {
+    visibility: hidden;
+    opacity: 0;
+    z-index: -99;
+}
+
+.donut {
+    width: 5rem;
+    height: 5rem;
+    margin: 2rem;
+    border-radius: 50%;
+    border: 0.3rem solid rgba(151, 159, 208, 0.3);
+    border-top-color: #3EDBF0;
+    animation: 1.5s spin infinite linear;
+}
+
+.donut.multi {
+    border-bottom-color: #3EDBF0;
+}
+
+@keyframes spin {
+    to {
+        transform: rotate(360deg);
+    }
+}
+
+
+ANIMATIONS
+
+#asterisk {
+    opacity: 0;
+    transform-origin: 50% 4%;
+    animation: spin 0.5s forwards;
+    animation-delay: 0.3s;
+}
+
+#asterisk::before,
+#asterisk::after {
+    transform-origin: center center;
+    animation: grow 0.5s forwards;
+    animation-delay: 0.8s;
+}
+
+.center p {
+    transform: translateY(-40px);
+    opacity: 0;
+    animation: fadeDown 0.9s forwards;
+    animation-delay: 1.3s;
+}
+
+.center h2 {
+    transform: scale(2);
+    opacity: 0;
+    animation: fade 0.5s forwards;
+}
+
+.center h1 {
+    transform: translateY(40px);
+    opacity: 0;
+    animation: fadeUp 0.5s forwards;
+    animation-delay: 0.3s;
+}
+
+@keyframes fadeUp {
+    0% {
+        opacity: 0;
+        transform: translateY(40px);
+    }
+    100% {
+        opacity: 1;
+        transform: translateY(0);
+    }
+}
+
+@keyframes fade {
+    0% {
+        transform: scale(2);
+        opacity: 0;
+    }
+    100% {
+        transform: scale(1);
+        opacity: 1;
+    }
+}
+
+@keyframes fadeDown {
+    0% {
+        opacity: 0;
+        transform: translateY(-40px);
+    }
+    100% {
+        opacity: 1;
+        transform: translateY(0);
+    }
+}
+
+@keyframes grow {
+    0% {
+        opacity: 0;
+        width: 0%;
+    }
+    50% {
+        opacity: 0.5;
+    }
+    100% {
+        opacity: 1;
+        width: 40%;
+    }
+}
+
+@keyframes spin {
+    0% {
+        transform: rotate(0);
+        opacity: 0;
+    }
+    100% {
+        transform: rotate(360deg);
+        opacity: 1;
+    }
+} 
+
+
+
