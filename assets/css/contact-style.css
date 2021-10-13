@@ -46,7 +46,7 @@ ul {
 
 contact-header {
     min-height: 100vh;
-    background: linear-gradient(to bottom, rgba(0, 0, 0, .8), transparent), url(../../assets/img/audi-e-tron-gt-teaser.jpg) no-repeat center center;
+    background: linear-gradient(to bottom, rgba(0, 0, 0, .8), transparent), url(../../assets/img/ernest-ojeh-aEytUoE1Tkc-unsplash.jpg) no-repeat center center;
     background-size: cover;
     background-attachment: fixed;
     display: flex;
@@ -140,7 +140,7 @@ contact-header .center p {
 } */
 nav {
     height: 80px;
-    background: #000;
+    background: #fff;
     opacity: 80%;
     width: 100%;
     margin: 0;
@@ -155,14 +155,14 @@ nav {
 }
 
 nav a {
-    /* font-weight: 600; */
+    font-weight: 500;
     padding: 0 30px;
-    color: #fff;
+    color: #000;
     transition: 0.4s;
 }
 
 nav a:hover {
-    /* font-weight: 600; */
+    font-weight: 600;
     text-decoration: none;
     color: #3EDBF0;
 }
@@ -405,13 +405,13 @@ footer #social-media-footer ul li:hover a .fa-instagram {
 }
  
 ::-webkit-scrollbar-track {
-    background: #000;
+    background: #fff;
 }
 
 ::-webkit-scrollbar-thumb {
     -webkit-border-radius: 10px;
     border-radius: 10px;
-    background: #fff; 
+    background: #3EDBF0; 
 }
 
 .preloader {
